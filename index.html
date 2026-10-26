@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alex Morgan's web development portfolio">
+  <title>Alex Morgan | Junior Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#home" class="logo">Alex Morgan<span>.</span></a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="nav-button">Let's Talk</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">HELLO, I'M</p>
+          <h1>Alex Morgan</h1>
+          <h2>Junior Web Developer</h2>
+
+          <p class="hero-description">
+            I create clean, responsive and user-friendly websites
+            using HTML and CSS. I'm passionate about learning,
+            solving problems and bringing ideas to life.
+          </p>
+
+          <a href="#projects" class="button">View My Work</a>
+        </div>
+
+        <div class="hero-image">
+          <img src="assets/alex.jpg"
+               alt="Alex Morgan profile portrait">
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="assets/laptop.jpg"
+               alt="Laptop and workspace">
+        </div>
+
+        <div class="about-content">
+          <p class="eyebrow">GET TO KNOW ME</p>
+          <h2 class="section-title">About Me</h2>
+
+          <p>
+            I'm a junior web developer who enjoys turning ideas
+            into practical digital experiences. I focus on building
+            websites that look good, work well on different devices
+            and are easy for people to use.
+          </p>
+
+          <p>
+            I'm continuously improving my skills and exploring
+            new ways to create better websites.
+          </p>
+
+          <a href="#contact" class="text-link">Let's connect →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I WORK WITH</p>
+          <h2 class="section-title">My Skills</h2>
+          <p>The tools and skills I use to create websites.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <img src="assets/htmllogo.jpg"
+                 alt="HTML5 logo">
+            <h3>HTML5</h3>
+            <p>Building the structure of web pages.</p>
+          </article>
+
+          <article class="skill-card">
+            <img src="assets/csslogo.jpg"
+                 alt="CSS3 logo">
+            <h3>CSS3</h3>
+            <p>Styling pages with layouts, colors and typography.</p>
+          </article>
+
+          <article class="skill-card">
+            <img src="assets/responsive-design.jpg"
+                 alt="Responsive design icon">
+            <h3>Responsive Design</h3>
+            <p>Making websites work across screen sizes.</p>
+          </article>
+
+          <article class="skill-card">
+            <img src="assets/uidesign.jpg"
+                 alt="UI design icon">
+            <h3>UI Design</h3>
+            <p>Creating clear and user-friendly interfaces.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">MY RECENT WORK</p>
+          <h2 class="section-title">Featured Projects</h2>
+          <p>A few examples of the websites I've been building.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <a href="#contact" class="project-image">
+              <img src="assets/project-one.jpg"
+                   alt="Personal portfolio website preview">
+            </a>
+
+            <div class="project-content">
+              <h3>Personal Portfolio</h3>
+              <p>A personal website showcasing my skills and work.</p>
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a href="#contact" class="project-image">
+              <img src="assets/project-two.jpg"
+                   alt="Landing page website preview">
+            </a>
+
+            <div class="project-content">
+              <h3>Landing Page</h3>
+              <p>A modern landing page with a strong visual layout.</p>
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a href="#contact" class="project-image">
+              <img src="assets/project-three.jpg"
+                   alt="Recipe website preview">
+            </a>
+
+            <div class="project-content">
+              <h3>Recipe Website</h3>
+              <p>A simple website for discovering meals and recipes.</p>
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2 class="section-title">Let's Work Together</h2>
+
+          <p>
+            Have a project idea or want to connect?
+            Send me a message.
+          </p>
+
+          <a href="mailto:alex.morgan@example.com" class="text-link">
+            alex.morgan@example.com →
+          </a>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name"
+                 placeholder="Enter your name" required>
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email"
+                 placeholder="Enter your email" required>
+
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="5"
+                    placeholder="Write your message..." required></textarea>
+
+          <button type="submit" class="button">Send Message</button>
+
+          <p class="form-note">
+            Demo form — a backend is needed to send messages.
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">Alex Morgan<span>.</span></a>
+      <p>© 2026 Alex Morgan. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
